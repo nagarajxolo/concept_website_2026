@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Define gradients for depth -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E91E8C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C41E3A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D946A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E91E8C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Top Right (Magenta) -->
+  <circle cx="115" cy="85" r="45" fill="url(#grad1)" opacity="0.8"/>
+  
+  <!-- Top Left (Pink) -->
+  <circle cx="85" cy="75" r="48" fill="url(#grad2)" opacity="0.8"/>
+  
+  <!-- Bottom Center Left (Cyan) -->
+  <circle cx="75" cy="115" r="45" fill="url(#grad3)" opacity="0.8"/>
+  
+  <!-- Bottom Right (Yellow) -->
+  <circle cx="120" cy="120" r="42" fill="url(#grad4)" opacity="0.8"/>
+  
+  <!-- Center overlap (Light overlay) -->
+  <circle cx="100" cy="100" r="25" fill="white" opacity="0.3"/>
+</svg>
